@@ -1,0 +1,52 @@
+import streamlit as st
+import pickle
+import numpy as np
+import pandas as pd
+def main():
+    st.title('IPl Score Classification')
+
+    with open("/content/ipl_pred_model.pkl", "rb") as model_file:
+        model = pickle.load(model_file)
+
+    # Title and description
+    st.title("Probable cumulative scorce predictor")
+    st.write("This app predicts the cummulative score")
+
+    # Dropdown options for categorical fields
+    teams = ['GT- 0', 'PBKS- 1', 'LSG- 2', "SRH- 3",'RCB- 4', 'CSK- 5', 'DC- 6', 'RR- 7',
+                'KKR- 8', 'MI- 9', 'KXIP- 10', 'RPS- 11','GL 12', 'PWI- 13', 'KOCHI- 14']  # Example team names
+    
+
+    # Dropdown fields for teams and venues
+    Current_over=st.number_input("over",min_value=0, max_value=30, value=0)
+    Current_Ball=st.number_input("Ball",min_value=0, max_value=100, value=0)
+    Home_team = st.selectbox("Batting Team", teams)
+    Away_team = st.selectbox("Bowling Team", teams)
+    Current_innings=st.selectbox("Current Innings",teams)
+    Run_rate=st.number_input("Current run rate",min_value=0, max_value=500, value=0)
+    Wickets_lost=st.number_input("Wickets lost",min_value=0, max_value=500, value=0)
+    wicket_taken=st.number_input("Wickets taken",min_value=0, max_value=500, value=0)
+    cumulative_strike_rate=st.number_input("Cumulative strike rate",min_value=0, max_value=500, value=0)
+    
+
+    input_data = {
+        'over': [Current_over],
+        'ball': [Current_Ball],
+        'run_rate': [Run_rate],
+        'wickets_lost': [Wickets_lost],
+        'home_team': [Home_team],
+        'away_team': [Away_team],
+        'current_innings': [Current_innings],
+        'wicket_taken':[wicket_taken],
+        'cumulative_strike_rate':[cumulative_strike_rate]
+
+        
+    }
+    
+    input_df = pd.DataFrame(input_data)
+
+    if(st.button("Predict")):
+        predicted_outcome = model.predict(input_df)
+        st.success(f'Cummulative runs :{predicted_outcome}')
+if __name__ == '__main__':
+  main()
