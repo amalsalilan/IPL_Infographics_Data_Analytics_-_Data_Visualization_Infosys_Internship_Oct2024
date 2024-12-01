@@ -60,5 +60,7 @@ Tools:
 Jupyter Notebook,Word (for documentation).
 ## Acknowledgments:📜
 Mentor: Special thanks to Amal Salian for guidance and support.
+
 Team Members:
+
 Resources: IPL data source and Python community.
