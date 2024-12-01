@@ -18,7 +18,7 @@ This project aims to analyze IPL data from multiple seasons, build predictive mo
 | `Initial Exploration.ipynb`              | Notebook containing initial data exploration and hypothesis formulation.       |
 | `LICENSE`                                | License file specifying the terms of use for the project.                      |
 | `README.md`                              | Documentation file with project overview and instructions.                     |
-| `app.py`                                 | Flask application script for deploying the prediction model.                   |
+| `app.py`                                 | Streamlit application script for deploying the prediction model.                   |
 | `base_modeling_all_season details.ipynb` | Notebook for baseline modeling and performance evaluation.                     |
 | `forecast_runs.ipynb`                    | Notebook for forecasting team runs and predicting future outcomes.             |
 | `ipl_documentetion.docx`                 | Comprehensive project documentation in Word format.                            |
