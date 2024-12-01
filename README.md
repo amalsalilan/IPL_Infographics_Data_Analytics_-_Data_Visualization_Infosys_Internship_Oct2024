@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/downloads/)
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](#)
-[![Contributors](https://img.shields.io/badge/Contributors-5-orange.svg)](#contributors)
+[![Contributors](https://img.shields.io/badge/Contributors-9-orange.svg)](#contributors)
 
 ## Table of Contents
 
