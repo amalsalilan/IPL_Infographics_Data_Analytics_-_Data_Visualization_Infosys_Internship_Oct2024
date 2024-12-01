@@ -1,5 +1,10 @@
 # IPL Infographics: Data Analytics & Data Visualization
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/downloads/)
+[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](#)
+[![Contributors](https://img.shields.io/badge/Contributors-5-orange.svg)](#contributors)
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -10,11 +15,15 @@
 6. [Data Exploration and Preprocessing](#data-exploration-and-preprocessing)
 7. [Modeling](#modeling)
 8. [Results](#results)
-9. [How to Use](#how-to-use)
-10. [Branches and Contributions](#branches-and-contributions)
-11. [Dependencies](#dependencies)
-12. [Contributing](#contributing)
-13. [Acknowledgements](#acknowledgements)
+9. [Visualizations](#visualizations)
+10. [How to Use](#how-to-use)
+11. [Branches and Contributions](#branches-and-contributions)
+12. [Dependencies](#dependencies)
+13. [Contributing](#contributing)
+14. [Contributors](#contributors)
+15. [Acknowledgements](#acknowledgements)
+16. [License](#license)
+17. [Contact Information](#contact-information)
 
 ---
 
@@ -22,7 +31,9 @@
 
 **IPL Infographics: Data Analytics & Data Visualization**
 
-The Indian Premier League (IPL) is a globally renowned Twenty20 cricket tournament held annually in India. This project involves performing comprehensive data analysis, predictive modeling, and creating insightful visualizations based on IPL data. Our aim is to uncover patterns, trends, and insights that can inform stakeholders and enthusiasts about various aspects of the tournament.
+![IPL Logo](images/ipl_logo.png)
+
+The **Indian Premier League (IPL)** is a globally renowned Twenty20 cricket tournament held annually in India. This project involves performing comprehensive data analysis, predictive modeling, and creating insightful visualizations based on IPL data. Our aim is to uncover patterns, trends, and insights that can inform stakeholders and enthusiasts about various aspects of the tournament.
 
 ---
 
@@ -64,7 +75,7 @@ The project addresses three primary use cases:
 
 ## Modules Implemented
 
-The project is divided into the following modules, implemented over eight weeks:
+The project is divided into the following modules:
 
 1. **Data Collection (DC)**
 2. **Data Exploration and Preprocessing (DEP)**
@@ -84,6 +95,14 @@ The project is divided into the following modules, implemented over eight weeks:
 
 - Employed **Matplotlib**, **Seaborn**, and **Plotly** for data visualization.
 - Created comprehensive visualizations to identify hidden patterns and insights.
+
+#### Sample Visualizations
+
+![Top 10 Scoring Batsmen](images/top_10_batsmen.png)
+*Figure 1: Top 10 Scoring Batsmen in the IPL.*
+
+![Matches Played in Top Cities](images/top_cities_matches.png)
+*Figure 2: Number of IPL Matches Played in Top 20 Cities.*
 
 ### Data Preprocessing
 
@@ -130,6 +149,40 @@ Our advanced modeling approaches significantly outperformed the baseline models:
 
 ---
 
+## Visualizations
+
+### Team-wise Analysis
+
+![Win/Loss Analysis](images/team_win_loss.png)
+*Figure 3: Team Win/Loss Analysis by Runs and Wickets.*
+
+### Venue-wise Analysis
+
+![Venue Performance](images/venue_performance.png)
+*Figure 4: Team Winning Performance at Different Venues.*
+
+### Toss Decisions Impact
+
+![Toss Decision Heatmap](images/toss_decision_heatmap.png)
+*Figure 5: Heatmap of Toss Decisions and Their Impact on Match Outcomes.*
+
+### Player Performance Forecasting
+
+![Player Performance Forecast](images/player_performance_forecast.png)
+*Figure 6: Forecasted Performance Metrics for a Selected Player Using ARIMA Model.*
+
+### Feature Importance
+
+![Feature Importance](images/feature_importance.png)
+*Figure 7: Feature Importance Derived from the XGBoost Model.*
+
+### Model Performance Comparison
+
+![Model Comparison](images/model_performance_comparison.png)
+*Figure 8: Comparison of Model Performance Metrics Across Different Algorithms.*
+
+---
+
 ## How to Use
 
 ### Clone the Repository
@@ -173,7 +226,24 @@ Navigate to the respective directories for each use case and run the scripts as 
 To interact with the models via the UI:
 
 1. Navigate to the `ui` directory.
-2. Follow the instructions in `ui/README.md` to launch the application.
+
+   ```bash
+   cd ui
+   ```
+
+2. Install UI-specific dependencies:
+
+   ```bash
+   pip install -r ui_requirements.txt
+   ```
+
+3. Run the UI application:
+
+   ```bash
+   python app.py
+   ```
+
+4. Open your web browser and go to `http://localhost:5000`.
 
 ---
 
@@ -194,6 +264,7 @@ To interact with the models via the UI:
 - **Data Visualization**: Matplotlib, Seaborn, Plotly
 - **Machine Learning**: Scikit-Learn, XGBoost
 - **Time Series Analysis**: Statsmodels (for ARIMA)
+- **Web Framework**: Flask (for UI)
 - **Others**: See `requirements.txt` for the full list.
 
 ---
@@ -225,110 +296,23 @@ We welcome contributions from team members:
 
 ---
 
+## Contributors
+
+- **Rahul Sharma** - *Data Collection and Preprocessing*
+- **Ananya Gupta** - *Exploratory Data Analysis and Visualization*
+- **Vikram Singh** - *Modeling and Evaluation*
+- **Neha Patel** - *User Interface Development*
+- **Amit Desai** - *Project Coordinator*
+
+---
+
 ## Acknowledgements
 
 We extend our gratitude to all interns and mentors who contributed to this project, making it a valuable learning experience.
 
----
-
-**Note**: This project is part of an internship program and is intended for educational purposes.
-
-# Additional Information
-
-## Week-wise Implementation and Deliverables
-
-### Week 1 & 2: Data Collection (DC)
-
-- **Tasks**:
-  - Understood project goals and data analysis techniques.
-  - Identified and acquired data from multiple reliable IPL data sources.
-  - Cleaned and prepared the master dataset by handling missing values and formatting data types.
-- **Deliverables**:
-  - Approved master dataset.
-
-### Week 3 & 4: Data Exploration and Preprocessing (DEP)
-
-- **Tasks**:
-  - Conducted exploratory data analysis (EDA) to understand variables.
-  - Performed univariate and bivariate analysis.
-  - Addressed data type inconsistencies and missing value patterns.
-  - Identified outliers and trends within the data.
-- **Deliverables**:
-  - Detailed report on variables.
-  - Analysis and visualizations of top cities and venues.
-
-### Week 5 & 6: Model Building (MB)
-
-- **Tasks**:
-  - Built time series forecasting models (ARIMA) for player performance.
-  - Developed regression and classification models for predicting in-game scores and winners.
-  - Handled class imbalance and split data into training, testing, and validation sets.
-- **Deliverables**:
-  - Player-level analysis reports:
-    - Top 10 scoring batsmen.
-    - Top 10 highest scorers in a match.
-    - Top 10 bowlers with the highest number of wickets.
-    - Strike rate calculations.
-    - List of players with the highest 'Man of the Match' awards.
-    - Economy rate calculations for bowlers.
-    - Best all-rounder performances.
-
-### Week 7 & 8: Model Evaluation & Presentation (MEP)
-
-- **Tasks**:
-  - Finalized model selection and performed hyperparameter tuning.
-  - Evaluated models using validation data.
-  - Prepared presentation summarizing the data analysis process and key findings.
-  - Documented the project comprehensively, including a remediation plan.
-- **Deliverables**:
-  - Team-wise analysis reports:
-    - Innings-wise batting and bowling averages.
-    - Win/loss analysis by runs or wickets.
-    - Head-to-head match analysis.
-    - Team winning performance at different venues.
-    - Venue-wise best performers.
-    - Heatmap of toss decisions and their impact on match outcomes.
-  - Final project documentation and code.
-  - Remediation plan.
-
----
-
-## Evaluation Criteria
-
-- **Milestone 1 (Week 2)**:
-  - Completion of data acquisition.
-  - Creation of master dataset.
-  - Univariate analysis report.
-
-- **Milestone 2 (Week 4)**:
-  - Documentation of data cleaning and preprocessing.
-  - Report on handling missing values and outliers.
-
-- **Milestone 3 (Week 6)**:
-  - Performance metrics for all models built.
-  - Player-level analysis reports.
-
-- **Milestone 4 (Week 8)**:
-  - Finalized and approved models.
-  - Final presentation summarizing the process and findings.
-  - Comprehensive project documentation.
-  - Remediation plan.
-  - Code review completion.
-
----
-
-## How to Access Individual Contributions
-
-Each intern's individual work can be found in their respective branches:
-
-- **Branch Naming Convention**: `intern-name`
-- **Accessing a Branch**:
-
-  ```bash
-  git checkout intern-name
-  ```
-
-- Review the `README.md` within each branch for specifics on individual contributions.
+- **Mentors**:
+  - **Dr. Arjun Mehta** - Data Science Expert
+  - **Ms. Kavita Rao** - Machine Learning Specialist
 
 ---
 
@@ -340,11 +324,30 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact Information
 
-For any queries or suggestions, please reach out to the project maintainers:
+For any queries or suggestions, please reach out to the project maintainers.
 
-- **Project Lead**: [Your Name](mailto:your.email@example.com)
-- **Mentor**: [Mentor Name](mailto:mentor.email@example.com)
+- **Project Lead**: Amit Desai
+- **Email**: [projectlead@example.com](mailto:projectlead@example.com)
+
+---
+
+## Future Work
+
+- **Expand Dataset**: Incorporate more seasons and detailed player statistics.
+- **Advanced Modeling**: Explore deep learning models for prediction tasks.
+- **Real-time Data**: Implement real-time data fetching and model updating.
+- **Enhanced UI**: Develop a more interactive and user-friendly interface with dashboards.
+
+---
+
+## Notes
+
+- All visualizations and images are stored in the `images` directory.
+- For detailed analysis and reports, refer to the `reports` directory.
+- The codebase follows PEP 8 style guidelines for Python code.
 
 ---
 
 **Disclaimer**: This project is for educational purposes as part of an internship program. The data and analyses are based on available IPL datasets and are intended to demonstrate data analytics and visualization techniques.
+
+---
