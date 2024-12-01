@@ -2,8 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/downloads/)
-[![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](#)
-[![Contributors](https://img.shields.io/badge/Contributors-9-orange.svg)](#contributors)
+[![Contributors](https://img.shields.io/badge/Contributors-16-orange.svg)](#contributors)
 
 ## Table of Contents
 
@@ -298,11 +297,23 @@ We welcome contributions from team members:
 
 ## Contributors
 
-- **Rahul Sharma** - *Data Collection and Preprocessing*
-- **Ananya Gupta** - *Exploratory Data Analysis and Visualization*
-- **Vikram Singh** - *Modeling and Evaluation*
-- **Neha Patel** - *User Interface Development*
-- **Amit Desai** - *Project Coordinator*
+- **Amal Salilan** - *Project Lead* - GitHub: [amalsalilan](https://github.com/amalsalilan)
+- **Nagira R** - *Data Collection and Preprocessing* - GitHub: [Nagira-R](https://github.com/Nagira-R)
+- **Pavan Kumar** - *Preprocessing and Modeling, UI Development* - GitHub: [PavanKumar1207](https://github.com/PavanKumar1207)
+- **Nomiya Allada** - *Data Analysis* - GitHub: [nomiyaallada](https://github.com/nomiyaallada)
+- **Sampath Kumar Illa** - *Data Visualization* - GitHub: [SampathKumarIlla](https://github.com/SampathKumarIlla)
+- **Nikita Avhad** - *Model Evaluation* - GitHub: [nikita-avhad](https://github.com/nikita-avhad)
+- **D. Aasritha Reddy** - *Data Preprocessing* - GitHub: [Aasritha1105](https://github.com/Aasritha1105)
+- **K. Akshya** - *Exploratory Data Analysis* - GitHub: [akshya1205](https://github.com/akshya1205)
+- **Bhavithra R S** - *Modeling and Evaluation* - GitHub: [bhavithrars19](https://github.com/bhavithrars19)
+- **Reshma Syed Meeran** - *User Interface Development* - GitHub: [Reshmasyedmeeran](https://github.com/Reshmasyedmeeran)
+- **Srimannarayana Adapa** - *Data Collection* - GitHub: [SrimannarayanaAdapa](https://github.com/SrimannarayanaAdapa)
+- **Govinda Prasad D** - *EDA and Main Project* - GitHub: [PrasadD2003](https://github.com/PrasadD2003)
+- **Gopikrishna V** - *Data Analysis* - GitHub: [TianKaiJr](https://github.com/TianKaiJr)
+- **Aditya Mehta** - *Modeling* - GitHub: [ADITYAMEHTA2222](https://github.com/ADITYAMEHTA2222)
+- **Sai Hitesh** - *Data Preprocessing* - GitHub: [SaiHitesh77](https://github.com/SaiHitesh77)
+- **Sagar Thube** - *Data Analysis* - GitHub: [sagarthube130](https://github.com/sagarthube130)
+- **Navya Sree Gouru** - *Data Collection* - GitHub: [Navya_Sree_Gouru](https://github.com/Navya_Sree_Gouru)
 
 ---
 
@@ -311,8 +322,7 @@ We welcome contributions from team members:
 We extend our gratitude to all interns and mentors who contributed to this project, making it a valuable learning experience.
 
 - **Mentors**:
-  - **Dr. Arjun Mehta** - Data Science Expert
-  - **Ms. Kavita Rao** - Machine Learning Specialist
+  - **Amal** - Data Science Expert
 
 ---
 
@@ -326,8 +336,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any queries or suggestions, please reach out to the project maintainers.
 
-- **Project Lead**: Amit Desai
-- **Email**: [projectlead@example.com](mailto:projectlead@example.com)
+- **Project Lead**: Amal Salilan
+- **Email**: [___________](mailto:amalsalilan@example.com)
 
 ---
 
