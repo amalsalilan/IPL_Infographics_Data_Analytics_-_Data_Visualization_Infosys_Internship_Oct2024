@@ -42,23 +42,26 @@ The **Indian Premier League (IPL)** is a globally renowned Twenty20 cricket tour
 - **Predictive Modeling**: Build models to predict in-game scores, match winners, and forecast player performance.
 - **Data Visualization**: Create interactive and informative visualizations to effectively communicate findings.
 - **Collaboration**: Leverage the strengths of individual team members through branch-specific contributions.
-| **File/Folder**                          | **Description**                                                                 |
-|------------------------------------------|---------------------------------------------------------------------------------|
-| `EDA_all_season_details.ipynb`           | Detailed exploratory data analysis across all IPL seasons.                     |
-| `Final_Notebook_all_season_details(modified).ipynb` | Modified consolidated notebook for streamlined workflow.              |
-| `Final_Notebook_all_season_details.ipynb`| Original consolidated notebook containing all steps in one place.              |
-| `IPL_EDA.ipynb`                          | Additional exploratory data analysis focused on IPL-specific details.          |
-| `Initial Exploration.ipynb`              | Notebook containing initial data exploration and hypothesis formulation.       |
-| `LICENSE`                                | License file specifying the terms of use for the project.                      |
-| `README.md`                              | Documentation file with project overview and instructions.                     |
-| `app.py`                                 | Flask application script for deploying the prediction model.                   |
-| `base_modeling_all_season details.ipynb` | Notebook for baseline modeling and performance evaluation.                     |
-| `forecast_runs.ipynb`                    | Notebook for forecasting team runs and predicting future outcomes.             |
-| `ipl_documentetion.docx`                 | Comprehensive project documentation in Word format.                            |
-| `ipl_pred_model.pkl`                     | Serialized prediction model saved for deployment.                              |
-| `ipl_pred_model.py`                      | Python script to load and use the prediction model.                            |
-| `modeling_all_season_details.ipynb`      | Notebook for advanced modeling and hyperparameter tuning.                      |
-| `runs_prediction_sample_dataset.ipynb`   | Sample dataset and test notebook for predicting runs.                          |
+
+  
+| **File/Folder**                                         | **Description**                                                                |
+|---------------------------------------------------------|--------------------------------------------------------------------------------|
+| **`EDA_all_season_details.ipynb`**                      | Notebook containing detailed exploratory data analysis across all IPL seasons. |
+| **`Final_Notebook_all_season_details(modified).ipynb`** | Streamlined and modified consolidated notebook for a smoother workflow.        |
+| **`Final_Notebook_all_season_details.ipynb`**           | Original consolidated notebook containing all analysis steps in one place.     |
+| **`IPL_EDA.ipynb`**                                     | Additional exploratory data analysis focusing on IPL-specific details.         |
+| **`Initial_Exploration.ipynb`**                         | Notebook documenting the initial data exploration and hypothesis formulation.  |
+| **`LICENSE`**                                           | File specifying the project’s terms of use and licensing details.              |
+| **`README.md`**                                         | Documentation file providing an overview of the project and usage instructions.|
+| **`app.py`**                                            | Flask application script used for deploying the prediction model.              |
+| **`base_modeling_all_season_details.ipynb`**            | Notebook for baseline model development and performance evaluation.            |
+| **`forecast_runs.ipynb`**                               | Notebook dedicated to forecasting team runs and predicting future outcomes.    |
+| **`ipl_documentation.docx`**                            | Comprehensive project documentation in Microsoft Word format.                  |
+| **`ipl_pred_model.pkl`**                                | Serialized prediction model saved for deployment purposes.                     |
+| **`ipl_pred_model.py`**                                 | Python script for loading and using the serialized prediction model.           |
+| **`modeling_all_season_details.ipynb`**                 | Notebook for advanced modeling and hyperparameter tuning tasks.                |
+| **`runs_prediction_sample_dataset.ipynb`**              | Notebook with a sample dataset for predicting runs and testing the model.      |
+
 
 ---
 
