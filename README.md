@@ -104,10 +104,10 @@ The project is divided into the following modules:
 - Employed **Matplotlib**, **Seaborn**, and **Plotly** for data visualization.
 - Created comprehensive visualizations to identify hidden patterns and insights.
 #### Sample Visualizations
-![Top 10 Scoring Batsmen](images/top_10_batsmen.png)
+![Top 10 Scoring Batsmen](https://github.com/amalsalilan/IPL_Infographics_Data_Analytics_-_Data_Visualization_Infosys_Internship_Oct2024/blob/56fb5dbdad6382815344c8b9ebc45519f5955d93/images/Top_10_batsmans.jpg?raw=true)
 *Figure 1: Top 10 Scoring Batsmen in the IPL.*
-![Matches Played in Top Cities](images/top_cities_matches.png)
-*Figure 2: Number of IPL Matches Played in Top 20 Cities.*
+![Matches Played in Top Cities](https://github.com/amalsalilan/IPL_Infographics_Data_Analytics_-_Data_Visualization_Infosys_Internship_Oct2024/blob/56fb5dbdad6382815344c8b9ebc45519f5955d93/images/top_cities.jpg)
+*Figure 2: Top cities most IPL matches played.*
 ### Data Preprocessing
 - **Handling Missing Values**: Applied techniques like mean/median imputation and interpolation.
 - **Data Inconsistencies**: Resolved inconsistencies and ensured data quality.
