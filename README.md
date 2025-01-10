@@ -168,7 +168,7 @@ Our advanced modeling approaches significantly outperformed the baseline models:
 ## How to Use
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-repo/ipl-infographics.git
+git clone https://github.com/amalsalilan/IPL_Infographics_Data_Analytics_-_Data_Visualization_Infosys_Internship_Oct2024
 ```
 ### Install Dependencies
 Ensure you have **Python 3.x** installed. Install required packages:
