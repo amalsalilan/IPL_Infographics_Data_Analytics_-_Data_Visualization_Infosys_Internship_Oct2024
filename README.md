@@ -142,26 +142,6 @@ Our advanced modeling approaches significantly outperformed the baseline models:
 - **Winner Prediction**: Successfully predicted match outcomes using classification algorithms.
 - **Player Performance Forecasting**: Effectively forecasted performance metrics using the ARIMA model.
 ---
-## Visualizations
-### Team-wise Analysis
-![Win/Loss Analysis](images/team_win_loss.png)
-*Figure 3: Team Win/Loss Analysis by Runs and Wickets.*
-### Venue-wise Analysis
-![Venue Performance](images/venue_performance.png)
-*Figure 4: Team Winning Performance at Different Venues.*
-### Toss Decisions Impact
-![Toss Decision Heatmap](images/toss_decision_heatmap.png)
-*Figure 5: Heatmap of Toss Decisions and Their Impact on Match Outcomes.*
-### Player Performance Forecasting
-![Player Performance Forecast](images/player_performance_forecast.png)
-*Figure 6: Forecasted Performance Metrics for a Selected Player Using ARIMA Model.*
-### Feature Importance
-![Feature Importance](images/feature_importance.png)
-*Figure 7: Feature Importance Derived from the XGBoost Model.*
-### Model Performance Comparison
-![Model Comparison](images/model_performance_comparison.png)
-*Figure 8: Comparison of Model Performance Metrics Across Different Algorithms.*
----
 7. For deployment: Run app.py using the saved model ipl_pred_model.pkl.
 ## Installation Instructions.💻
 
