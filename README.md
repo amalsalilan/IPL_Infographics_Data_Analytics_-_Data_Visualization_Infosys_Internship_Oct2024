@@ -167,7 +167,7 @@ Our advanced modeling approaches significantly outperformed the baseline models:
 
 ## How to Use
 1. Clone the repository:
-git clone https://github.com/username/repository-name.git
+git clone [https://github.com/username/repository-name.git](https://github.com/amalsalilan/IPL_Infographics_Data_Analytics_-_Data_Visualization_Infosys_Internship_Oct2024)
 
 ### Clone the Repository
 ```bash
